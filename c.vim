@@ -227,7 +227,7 @@ syn keyword	cAnsiName	PRIXFAST64 SCNiLEAST64 SCNu64 SCNxPTR
 syn keyword	cAnsiName	PRIXMAX SCNiFAST8 SCNuLEAST8
 syn keyword	cAnsiName	PRIXPTR SCNiFAST16 SCNuLEAST16
 
-syn keyword	cAnsiName	errno environ err_t
+syn keyword	cAnsiName	errno environ
 
 syn keyword	cAnsiName	STDC CX_LIMITED_RANGE
 syn keyword	cAnsiName	STDC FENV_ACCESS
@@ -271,6 +271,11 @@ syn match cBraces display "[{}]"
 
 " Booleans
 syn keyword cBoolean true false TRUE FALSE
+
+" Vahid
+" syn match cBoolean	"[0-9a-z_]*_t"
+syn match cType	"[0-9a-z_]*_t"
+
 
 " Links
 hi def link cFunction Function
