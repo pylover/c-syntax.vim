@@ -272,10 +272,8 @@ syn match cBraces display "[{}]"
 " Booleans
 syn keyword cBoolean true false TRUE FALSE
 
-" Vahid
-" syn match cBoolean	"[0-9a-z_]*_t"
-syn match cType	"[0-9a-z_]*_t"
-
+" Pylover
+syn match cType	"\<[0-9a-z_]*_t\>"
 
 " Links
 hi def link cFunction Function
