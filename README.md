@@ -13,3 +13,19 @@ or, simply run
 make install
 make uninstall
 ```
+
+Or use a plugin manager such as [Plug](https://github.com/junegunn/vim-plug).
+
+Add
+```vim
+
+call plug#begin('~/.vim/plugged')
+" .
+" .
+" .
+Plug 'pylover/c-syntax.vim'
+" .
+" .
+" .
+call plug#end()
+```
