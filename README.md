@@ -6,3 +6,10 @@ Fork from the original Mikhail Wolfson [version](https://vim.sourceforge.io/scri
 ## installation
 
 Simply put the `c.vim` file in `~/.vim/after/syntax/`, and make sure you have `syntax on` in your `~/.vimrc` file.
+
+or, simply run
+
+```bash
+make install
+make uninstall
+```
