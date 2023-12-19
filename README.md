@@ -16,9 +16,14 @@ make uninstall
 
 Or use a plugin manager such as [Plug](https://github.com/junegunn/vim-plug).
 
-Add
+Add this line to your `~/.vimrc`.
 ```vim
+Plug 'pylover/c-syntax.vim'
+```
 
+
+Example: 
+```vim
 call plug#begin('~/.vim/plugged')
 " .
 " .
