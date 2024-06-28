@@ -250,6 +250,7 @@ syn match cOperator "&&\|||"
 syn match cOperator	"[][]"
 
 " Preprocs
+syn region	cPreCondit	start="^\s*\zs\%(%:\|#\)\s*\%(if\|ifdef\|ifndef\|elif\|elifdef\|elifndef\)\>" skip="\\$" end="$" keepend contains=cComment,cCommentL,cCppString,cCharacter,cCppParen,cParenError,cNumbers,cCommentError,cSpaceError
 syn keyword cDefined defined contained containedin=cDefine
 hi def link cDefined cDefine
 
