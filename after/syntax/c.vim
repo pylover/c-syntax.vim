@@ -277,6 +277,9 @@ syn match cBraces display "[{}]"
 " Booleans
 syn keyword cBoolean true false TRUE FALSE
 
+"binary number
+syn match cNumber display contained "0[bB][01]\+\%(u\=l\{0,2}\|ll\=u\)\>"
+
 " Pylover
 syn match cType	"\<[0-9a-z_]*_t\>"
 
